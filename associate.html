@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html dir="rtl">
+	<head>
+		<title>پیش انتخاب واحد</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div class="pagetitle">
+            <label>نام : </label><span id="fname"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>نام خانوادگی : </label><span id="lname"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>شماره دانشجویی : </label><span id="id"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>مقطع تحصیلی : </label><span id="grade"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="title2"><h2>لیست دروس کاردانی پیوسته</h2></div>
+        <div class="container">
+            <div class="subcontainer1">
+                <div class="sub1-0">
+                    <h2>دروس تخصصی</h2> (<span id="cat1">0</span>)
+                </div>
+                <div class="sub1-1">
+                    <div class="specialized-courses">
+                        <div class="specialized">
+                            <input id="chk1" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk1">برنامه سازی پیشرفته</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk2" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk2">سیستم عامل</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk3" type="checkbox" value=1 onclick="calc_credit(id)">
+                            <label for="chk3">نرم افزارهای توسعه موبایل</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk4" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk4">برنامه نویسی موبایل 1</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk5" type="checkbox" value=1 onclick="calc_credit(id)">
+                            <label for="chk5">آزمایشگاه سیستم عامل</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk6" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk6">مبانی شبکه های کامپیوتری</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk7" type="checkbox" value=1 onclick="calc_credit(id)">
+                            <label for="chk7">آزمایشگاه نرم افزارهای گرافیکی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk8" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk8">زبان فنی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk9" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk9">پایگاه داده</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk10" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk10">تجزیه و تحلیل سیستم</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk11" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk11">طراحی وب</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk12" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk12">برنامه نویسی موبایل 2</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk13" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk13">برنامه نویسی مبتنی بر وب</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk14" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk14">آزمایشگاه پایگاه داده</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk15" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk15">مدار منطقی</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub1-2">
+                    <div class="specialized-courses">
+                        <div class="specialized">
+                            <input id="chk16" type="checkbox" value=3 onclick="calc_credit(id)">
+                            <label for="chk16">ساختمان داده</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk17" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk17">برنامه نویسی سخت افزار</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk18" type="checkbox" value=1 onclick="calc_credit(id)">
+                            <label for="chk18">کارگاه شبکه های کامپیوتری</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk19" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk19">ساختمان گسسته</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk20" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk20">کارآفرینی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk21" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk21">کارآموزی</label>
+                        </div>
+                        <div class="specialized">
+                            <input id="chk22" type="checkbox" value=2 onclick="calc_credit(id)">
+                            <label for="chk22">پروژه</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subcontainer2">
+                <div class="elective-courses">
+                    <h2>دروس اختیاری</h2> (<span id="cat2">0</span>)
+                    <div class="elective">
+                        <input id="chk23" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk23">مباحث ویژه در برنامه نویسی</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk24" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk24">هوش مصنوعی</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk25" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk25">بازی سازی</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk26" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk26">امنیت شبکه</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk27" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk27">سیستم های مدیریت محتوا</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk28" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk28">اینترنت اشیاء</label>
+                    </div>
+                    <div class="elective">
+                        <input id="chk30" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk30">محیط های چند رسانه ای</label>
+                    </div>
+                </div>
+                <div class="core-courses">
+                    <h2>دروس پایه</h2> (<span id="cat5">0</span>)
+                    <div class="core">
+                        <input id="chk43" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk43">ریاضی عمومی</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk44" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk44">کار راه شغلی</label>
+                    </div>
+                    <div class="core">
+                        <input id="chk45" type="checkbox" value=1 onclick="calc_credit(id)">
+                        <label for="chk45">آزمایشگاه نرم افزارهای اداری</label>
+                    </div>
+                </div>
+            </div>
+            <div class="subcontainer3">
+                <div class="generalize-trained-courses">
+                    <h2>دروس مهارت عمومی</h2> (<span id="cat3">0</span>)
+                    <div class="generalize-trained">
+                        <input id="chk31" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk31">کنترل کیفیت</label>
+                    </div>
+                    <div class="generalize-trained">
+                        <input id="chk32" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk32">اصول و فنون مذاکره</label>
+                    </div>
+                    <div class="generalize-trained">
+                        <input id="chk33" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk33">مهارت های حل مسئله</label>
+                    </div>
+                    <div class="generalize-trained">
+                        <input id="chk34" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk34">بازاریابی مجازی</label>
+                    </div>
+                    <div class="generalize-trained">
+                        <input id="chk35" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk35">تجاری سازی محصول</label>
+                    </div>
+                    <div class="generalize-trained">
+                        <input id="chk36" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk36">بهداشت و صیانت محیط زیست</label>
+                    </div>
+                </div>
+                <div class="general-courses">
+                    <h2>دروس عمومی</h2> (<span id="cat4">0</span>)
+                    <div class="general">
+                        <input id="chk37" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk37">فارسی عمومی</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk38" type="checkbox" value=3 onclick="calc_credit(id)">
+                        <label for="chk38">زبان خارجه</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk39" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk39">یک درس گروه معارف</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk40" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk40">یک درس گروه اخلاق</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk41" type="checkbox" value=1 onclick="calc_credit(id)">
+                        <label for="chk41">تربیت بدنی</label>
+                    </div>
+                    <div class="general">
+                        <input id="chk42" type="checkbox" value=2 onclick="calc_credit(id)">
+                        <label for="chk42">دانش خانواده</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagefooter">
+            <button onclick="savedata()">ثبت پیش انتخاب واحد</button>
+            <label>جمع کل واحد های انتخابی : </label>&nbsp;&nbsp;<span id="total_credit">0</span>
+       </div>
+		<script src="associate.js"></script>
+	</body>
+</html>
