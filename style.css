@@ -3,13 +3,19 @@ h2{
 	color: rgb(170, 0, 40);
 }
 
+body{
+	background-color: rgb(12, 0, 0);
+}
+
 .box{
-	background-color: bisque;
-	vertical-align: top;
-	border: 2px solid black;
 	display: inline-block;
+	position: fixed;
+	top: 10%;
+	left: 40%;
+	padding: 60px 100px 60px 100px;
+	background-color: bisque;
 	font-family: 'B Titr';
-	padding: 40px;
+	text-align: right;
 }
 
 .box input[type=text]{
