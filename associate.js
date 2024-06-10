@@ -31,7 +31,11 @@ function savedata(){
 	let result = addCheckedCheckboxToList();
 	// console.log(`${fname} ${lname} (${id})  --->  ${grade}`);
 	// console.log(result);
-	var fileContent = id+"\n"+fname+"\n"+lname+"\n"+grade+"\n"+result;
+	if (grade == "کاردانی"){
+		var fileContent = id+"\n"+fname+"\n"+lname+"\n"+"associate"+"\n"+result;
+	}else{
+		var fileContent = id+"\n"+fname+"\n"+lname+"\n"+"bachelor"+"\n"+result;
+	}
     var bb = new Blob([fileContent],{type:"text/plain;charset=utf-8"});
     var a = document.createElement('a');
     a.download = 'register.txt';

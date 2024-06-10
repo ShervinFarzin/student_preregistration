@@ -11,14 +11,14 @@ function navigateToPage(){
 			localStorage.setItem("fname", fname);
 			localStorage.setItem("lname", lname);
 			localStorage.setItem("id", id);
-			localStorage.setItem("grade", "associate");
+			localStorage.setItem("grade", "کاردانی");
 			window.location.href = 'associate.html';
 		} else if (document.getElementById('type2').checked) {
 			// alert(`${fname} ${lname} (${id}) -> کارشناسی`);
 			localStorage.setItem("fname", fname);
 			localStorage.setItem("lname", lname);
 			localStorage.setItem("id", id);
-			localStorage.setItem("grade", "bachelor");
+			localStorage.setItem("grade", "کارشناسی");
 			window.location.href = 'bachelor.html';
 		}
 	}
